@@ -20,7 +20,7 @@
 
              <tr>
 				  <td>collage name :</td>
-				  <td><input type="text" name="Collage=name" /></td>
+				  <td><input type="text" name="office=name" /></td>
 			</tr>
 
 			<tr>
