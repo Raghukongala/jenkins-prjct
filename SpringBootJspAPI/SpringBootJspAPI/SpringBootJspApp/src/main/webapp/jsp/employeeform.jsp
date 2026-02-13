@@ -23,6 +23,10 @@
 				<td><input type="text" name="name" /></td>
 			</tr>
 			<tr>
+				<td>Father Name :</td>
+				<td><input type="text" name="fatherName" /></td>
+			</tr>
+			<tr>
 				<td>Department :</td>
 				<td><input type="text" name="department" /></td>
 			</tr>

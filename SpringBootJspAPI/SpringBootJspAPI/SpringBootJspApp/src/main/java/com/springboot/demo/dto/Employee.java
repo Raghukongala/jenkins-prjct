@@ -4,6 +4,7 @@ public class Employee {
 
 	private String empId;
 	private String name;
+	private String fatherName;
 	private String department;
 	private int salary;
 
@@ -21,6 +22,14 @@ public class Employee {
 
 	public void setName(String name) {
 		this.name = name;
+	}
+
+	public String getFatherName() {
+		return fatherName;
+	}
+
+	public void setFatherName(String fatherName) {
+		this.fatherName = fatherName;
 	}
 
 	public String getDepartment() {
