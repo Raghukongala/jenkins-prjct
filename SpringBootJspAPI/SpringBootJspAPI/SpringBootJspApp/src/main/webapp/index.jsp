@@ -8,7 +8,7 @@
 </head>
 <body>
 	<h1 align="center">Welcome to Spring Boot JSP Application</h1>
-	<h3 align="center" style="color: #4CAF50;">Deployed via Jenkins CI/CD Pipeline</h3>
+	<h3 align="center" style="color: #4CAF50;">Deployed via Jenkins CI/CD Pipeline RAGHU</h3>
 	<div align="center">
 		<form action="display">
 			<input type="submit" value="Display"/>
