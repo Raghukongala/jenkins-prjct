@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1 align="center">Add New Employee</h1>
+	<h1 align="center">Add New Student</h1>
 	<form method="post" action="save">
 		${message}<br>
 		<br>
@@ -19,7 +19,7 @@
 			</tr>
 
              <tr>
-				  <td>office name :</td>
+				  <td>Student ID :</td>
 				  <td><input type="text" name="office=name" /></td>
 			</tr>
 
@@ -39,7 +39,7 @@
 				<td></td>
 				<td><br>
 				<input type="submit" value="Save" />&nbsp;&nbsp; <a
-					href="viewstudent"><input type="button" value="View Employees" /></a>
+					href="viewstudent"><input type="button" value="View Students" /></a>
 					<a href="index.jsp"><input type="button" value="home" /></a>&nbsp;&nbsp;</td>
 			</tr>
 		</table>
