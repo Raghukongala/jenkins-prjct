@@ -4,23 +4,18 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Employee Form</title>
 </head>
 <body>
-	<h1 align="center">Add New Student</h1>
+	<h1 align="center">Add New Employee</h1>
 	<form method="post" action="save">
 		${message}<br>
 		<br>
 
 		<table align="center">
 			<tr>
-				<td>Htno :</td>
-				<td><input type="text" name="htno" /></td>
-			</tr>
-
-             <tr>
-				  <td>Student ID :</td>
-				  <td><input type="text" name="office=name" /></td>
+				<td>Employee ID :</td>
+				<td><input type="text" name="empId" /></td>
 			</tr>
 
 			<tr>
@@ -28,18 +23,18 @@
 				<td><input type="text" name="name" /></td>
 			</tr>
 			<tr>
-				<td>College Code :</td>
-				<td><input type="text" name="collegecode" /></td>
+				<td>Department :</td>
+				<td><input type="text" name="department" /></td>
 			</tr>
 			<tr>
-				<td>Branchcode :</td>
-				<td><input type="text" name="branchcode" required /></td>
+				<td>Salary :</td>
+				<td><input type="text" name="salary" required /></td>
 			</tr>
 			<tr>
 				<td></td>
 				<td><br>
 				<input type="submit" value="Save" />&nbsp;&nbsp; <a
-					href="viewstudent"><input type="button" value="View Students" /></a>
+					href="viewemployee"><input type="button" value="View Employees" /></a>
 					<a href="index.jsp"><input type="button" value="home" /></a>&nbsp;&nbsp;</td>
 			</tr>
 		</table>
