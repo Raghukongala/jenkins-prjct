@@ -17,6 +17,12 @@
 				<td>Htno :</td>
 				<td><input type="text" name="htno" /></td>
 			</tr>
+
+             <tr>
+				  <td>collage name :</td>
+				  <td><input type="text" name="Collage=name" /></td>
+			</tr>
+
 			<tr>
 				<td>Name :</td>
 				<td><input type="text" name="name" /></td>
