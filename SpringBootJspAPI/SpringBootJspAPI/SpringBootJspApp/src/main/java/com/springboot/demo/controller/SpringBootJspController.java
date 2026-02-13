@@ -20,6 +20,11 @@ public class SpringBootJspController {
 	@Autowired
 	private Environment env;
 	
+	@GetMapping("/")
+	public ModelAndView home() {
+		return new ModelAndView("index");
+	}
+	
 	@GetMapping("/public/health")
 	public String getHealthApi() {
 		return new String("Spring Boot Jsp Application is running");

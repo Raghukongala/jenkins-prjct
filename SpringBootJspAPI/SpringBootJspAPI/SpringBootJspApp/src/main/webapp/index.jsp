@@ -14,7 +14,7 @@
 			<input type="submit" value="Display"/>
 		</form>
 		<br>
-		<a href="studentform"><input type="submit" value="Add Student" /></a>&nbsp;&nbsp;&nbsp;
+		<a href="employeeform"><input type="submit" value="Add Employee" /></a>&nbsp;&nbsp;&nbsp;
 		<a href="test"><input type="button" value="Test"/></a>
 		<a href="hello"><input type="button" value="Hello"/></a>
 	</div>
